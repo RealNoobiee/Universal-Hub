@@ -128,7 +128,7 @@ local FeatureButtons = {
     {Name = "Cokka Hub", URL = "https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"},
     {Name = "Speed Hub", URL = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
     {Name = "Mokuro Hub", URL = "https://auth.quartyz.com/scripts/Loader.lua"}
-    {Name = "Lunor Hub Premium", URL = "script_key="SRbjYreTKSiGhZyafWYYgKhBagxErVAG"; loadstring(game:HttpGet('https://lunor.dev/premium-loader'))()"
+    {Name = "Lunor Hub Premium", URL = "script_key="SRbjYreTKSiGhZyafWYYgKhBagxErVAG"; loadstring(game:HttpGet('https://lunor.dev/premium-loader"},
     {
         Name = "W Azure",
         URL = [[
