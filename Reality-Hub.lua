@@ -111,7 +111,7 @@ FeaturesTabButton.MouseButton1Click:Connect(function()
 end)
 
 -- Status Labels
-local StatusLabels = {"STATUS SC: VIP", "DEV: tiktok @lawwonlyone", "INFO: Penjual SC ini hanya @lawwonlyone"}
+local StatusLabels = {"Status: Owner", "DEV: TheGuestKing", "INFO: Personal Use Only :)"}
 for i, label in ipairs(StatusLabels) do
     local StatusLabel = Instance.new("TextLabel")
     StatusLabel.Parent = StatusFrame
