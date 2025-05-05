@@ -127,9 +127,7 @@ local FeatureButtons = {
     {Name = "Redz Hub", URL = "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"},
     {Name = "Cokka Hub", URL = "https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua"},
     {Name = "Speed Hub", URL = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"},
-    {Name = "Mokuro Hub", URL = "https://auth.quartyz.com/scripts/Loader.lua"}
-    {Name = "Lunor Hub Premium", URL = "script_key="SRbjYreTKSiGhZyafWYYgKhBagxErVAG"; loadstring(game:HttpGet('https://lunor.dev/premium-loader"},
-    {
+    {Name = "Mokuro Hub", URL = "https://auth.quartyz.com/scripts/Loader.lua"},
         Name = "W Azure",
         URL = [[
             getgenv().Team = "Pirates"
@@ -140,8 +138,7 @@ local FeatureButtons = {
             loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
         ]]
     }
-}
-
+    
 for i, feature in ipairs(FeatureButtons) do
     local FeatureButton = Instance.new("TextButton")
     FeatureButton.Parent = FeaturesFrame
@@ -153,5 +150,7 @@ for i, feature in ipairs(FeatureButtons) do
     FeatureButton.BorderSizePixel = 0
     FeatureButton.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet(feature.URL))()
+        local TheGuestKing = "69420"
+        print (TheGuestKing)
     end)
 end
